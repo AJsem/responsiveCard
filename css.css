@@ -47,7 +47,7 @@
 }
 
 .bottom-container {
-	height: 55%;
+	max-height: 55%;
 	width: 100%;
 	border: none;
 }

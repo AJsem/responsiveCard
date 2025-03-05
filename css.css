@@ -1,0 +1,193 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: Perpetua;
+}
+
+.main-container {
+	margin: 20px;
+	margin-left: 100px;
+	width: 85%;
+	height: 80%;
+	background-color: lightseagreen;
+	justify-items: center;
+	padding: 112px;
+}
+
+.container {
+	border: none;
+	width: 500px;
+	height: 400px;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	background-color: lightcyan;
+}
+
+.top-container {
+	height: 45%;
+	width: 100%;
+	border: none;
+	padding: 25px;
+} 
+.top-container h2 {
+	margin-bottom: 20px;
+	color: darkcyan;
+}
+
+.top-container h4 {
+	margin-bottom: 15px;
+	color: darkslategray;
+}
+
+.top-container p {
+	margin-bottom: 5px;
+	color: ;
+	opacity: 0.7;
+}
+
+.bottom-container {
+	height: 55%;
+	width: 100%;
+	border: none;
+}
+
+.bottom-container h4 {
+	margin-bottom: 15px;
+}
+
+.bottom-left-container, .bottom-right-container {
+	width: 50%;
+	border: none;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 25px;
+}
+
+.bottom-left-container {
+	background-color: darkslategray;
+	color: white;
+}
+
+.bottom-left-container h4 {
+	color: white;
+	opacity: 1;
+}
+
+.bottom-left-container p {
+	opacity: 0.9;
+}
+
+.bottom-right-container {
+	background-color: darkcyan;
+	color: white;	
+}
+
+.bottom-right-container h4 {
+	color: ;
+}
+
+
+
+#amount, #payment-frequency {
+	display: inline-block;
+}
+
+#amount {
+	font-weight: 700;
+	font-size: 1.4rem;
+}
+
+#payment-frequency {
+	position: relative;
+	top: -3px;
+	margin-left: 5px;
+	font-size: 0.9rem;
+	opacity: 0.9;
+
+}
+
+.price-container {
+	margin-bottom: 5px;
+	color: white;
+}
+
+
+button {
+	margin: 32px 0px 0px 0px;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	font-size: 1rem;
+	background-color: lightcyan;
+
+}
+
+button:hover {
+	cursor: pointer;
+	opacity: 0.9;
+	transform: scale(0.97);
+	background-color: white;
+}
+
+.bottom-right-container ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0;
+	font-size: 0.9rem;
+	opacity: 0.8;
+}
+
+
+@media (max-width: 925px) {
+	.main-container {
+		margin: 3%;
+		margin-left: 8%;
+
+		width: 85%;
+		height: 80%;
+		background-color: lightseagreen;
+		justify-items: center;
+		padding: 112px;
+	}	
+}
+
+
+
+@media (max-width: 600px) {
+	.main-container {
+		margin: 0px;
+		padding: 25px;
+		width: 100%;
+		height: 100%;
+		background-color: whitesmoke;
+	}	
+
+	.container {
+		margin: 0;
+		padding: 0;
+		border: none;
+		width: 100%;
+		height: 100%;
+		border-radius: 5px;
+		box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+		background-color: lightcyan;
+	}
+
+	.top-container {
+		width: 100%;
+		border: none;
+		padding: none;
+	}
+
+	.bottom-left-container, .bottom-right-container {
+		width: 100%;
+		border: none;
+		height: 100%;
+		display: block;
+		vertical-align: top;
+		padding: 25px;
+	}
+}

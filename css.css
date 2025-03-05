@@ -25,7 +25,7 @@
 }
 
 .top-container {
-	height: 45%;
+	height: auto;
 	width: 100%;
 	border: none;
 	padding: 25px;

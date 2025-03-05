@@ -1,4 +1,4 @@
-* {
+*, *:after, *:before {
 	box-sizing: border-box;
 	margin: 0;
 	font-family: Perpetua;
@@ -25,7 +25,7 @@
 }
 
 .top-container {
-	height: auto;
+	min-height: 45%;
 	width: 100%;
 	border: none;
 	padding: 25px;
@@ -47,7 +47,7 @@
 }
 
 .bottom-container {
-	max-height: 55%;
+	height: 55%;
 	width: 100%;
 	border: none;
 }
